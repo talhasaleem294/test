@@ -8,7 +8,7 @@ app.use(morgan('combined'));  // You can use 'tiny', 'dev', or 'combined' format
 
 // Define a simple route
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello, Express! updated');
 });
 
 // Start the server
